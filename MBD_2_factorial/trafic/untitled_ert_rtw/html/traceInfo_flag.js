@@ -1,0 +1,50 @@
+function TraceInfoFlag() {
+    this.traceFlag = new Array();
+    this.traceFlag["untitled.c:39c38"]=1;
+    this.traceFlag["untitled.c:40c35"]=1;
+    this.traceFlag["untitled.c:43c41"]=1;
+    this.traceFlag["untitled.c:59c42"]=1;
+    this.traceFlag["untitled.c:78c42"]=1;
+    this.traceFlag["untitled.c:97c42"]=1;
+}
+top.TraceInfoFlag.instance = new TraceInfoFlag();
+function TraceInfoLineFlag() {
+    this.lineTraceFlag = new Array();
+    this.lineTraceFlag["untitled.c:39"]=1;
+    this.lineTraceFlag["untitled.c:40"]=1;
+    this.lineTraceFlag["untitled.c:43"]=1;
+    this.lineTraceFlag["untitled.c:44"]=1;
+    this.lineTraceFlag["untitled.c:45"]=1;
+    this.lineTraceFlag["untitled.c:46"]=1;
+    this.lineTraceFlag["untitled.c:49"]=1;
+    this.lineTraceFlag["untitled.c:52"]=1;
+    this.lineTraceFlag["untitled.c:55"]=1;
+    this.lineTraceFlag["untitled.c:57"]=1;
+    this.lineTraceFlag["untitled.c:58"]=1;
+    this.lineTraceFlag["untitled.c:59"]=1;
+    this.lineTraceFlag["untitled.c:60"]=1;
+    this.lineTraceFlag["untitled.c:61"]=1;
+    this.lineTraceFlag["untitled.c:64"]=1;
+    this.lineTraceFlag["untitled.c:67"]=1;
+    this.lineTraceFlag["untitled.c:70"]=1;
+    this.lineTraceFlag["untitled.c:73"]=1;
+    this.lineTraceFlag["untitled.c:77"]=1;
+    this.lineTraceFlag["untitled.c:78"]=1;
+    this.lineTraceFlag["untitled.c:79"]=1;
+    this.lineTraceFlag["untitled.c:80"]=1;
+    this.lineTraceFlag["untitled.c:83"]=1;
+    this.lineTraceFlag["untitled.c:86"]=1;
+    this.lineTraceFlag["untitled.c:89"]=1;
+    this.lineTraceFlag["untitled.c:92"]=1;
+    this.lineTraceFlag["untitled.c:97"]=1;
+    this.lineTraceFlag["untitled.c:98"]=1;
+    this.lineTraceFlag["untitled.c:99"]=1;
+    this.lineTraceFlag["untitled.c:102"]=1;
+    this.lineTraceFlag["untitled.c:105"]=1;
+    this.lineTraceFlag["untitled.c:108"]=1;
+    this.lineTraceFlag["untitled.c:111"]=1;
+    this.lineTraceFlag["untitled.c:137"]=1;
+    this.lineTraceFlag["untitled.c:138"]=1;
+    this.lineTraceFlag["untitled.c:139"]=1;
+}
+top.TraceInfoLineFlag.instance = new TraceInfoLineFlag();
